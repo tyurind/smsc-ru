@@ -9,7 +9,7 @@ use NotificationChannels\SmscRu\SmscRuChannel;
 use NotificationChannels\SmscRu\SmscRuMessage;
 use NotificationChannels\SmscRu\Exceptions\CouldNotSendNotification;
 
-class SmscRuChannelTest extends \PHPUnit_Framework_TestCase
+class SmscRuChannelTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var SmscRuApi

@@ -4,7 +4,7 @@ namespace NotificationChannels\SmscRu\Test;
 
 use NotificationChannels\SmscRu\SmscRuMessage;
 
-class SmscRuMessageTest extends \PHPUnit_Framework_TestCase
+class SmscRuMessageTest extends \PHPUnit\Framework\TestCase
 {
     /** @test */
     public function it_can_accept_a_content_when_constructing_a_message()
